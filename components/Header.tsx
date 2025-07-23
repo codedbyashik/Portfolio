@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -47,18 +48,12 @@ export default function Header() {
           <Link href="#about" className="hover:text-blue-500">
             About
           </Link>
-          <Link href="#skills" className="hover:text-blue-500">
-            Skills
-          </Link>
-          <Link href="#projects" className="hover:text-blue-500">
-            Projects
-          </Link>
+          
+          
           <Link href="#contact" className="hover:text-blue-500">
             Contact
           </Link>
-          <Link href="/faq" className="hover:text-blue-500">
-            FAQ
-          </Link>
+          
 
           {/* Dark Mode Toggle Button */}
           <button

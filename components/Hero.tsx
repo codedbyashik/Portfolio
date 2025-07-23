@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 
@@ -14,7 +15,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         viewport={{ once: false, amount: 0.6 }}
       >
-        Hi, I'm{" "}
+        Hi Im{" "}
         <span className="text-blue-600 dark:text-blue-400">Ashik</span>
       </motion.h1>
 

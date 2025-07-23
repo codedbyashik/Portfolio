@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion, easeOut } from "framer-motion";
 
 const projects = [
   {
@@ -39,7 +39,7 @@ const itemVariants = {
     x: 0,
     transition: {
       duration: 0.6,
-      ease: "easeOut",
+      ease: easeOut, // ✅ fixed here
     },
   },
 };

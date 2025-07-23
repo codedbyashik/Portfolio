@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, easeOut } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const skills = [
@@ -33,7 +33,7 @@ export default function Skills() {
     hidden: { width: 0 },
     visible: (level: number) => ({
       width: `${level}%`,
-      transition: { duration: 1.5, ease: "easeOut" },
+      transition: { duration: 1.5, ease: easeOut }, // ✅ fixed here
     }),
   };
 

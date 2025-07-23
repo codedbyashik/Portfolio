@@ -1,4 +1,5 @@
 // app/components/Footer.tsx
+// eslint-disable-next-line react/no-unescaped-entities
 
 import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 import Link from "next/link";
@@ -34,7 +35,7 @@ export default function Footer() {
 
         {/* Branding */}
         <div>
-          <h2 className="text-lg font-semibold mb-4">Ashik's Webspace</h2>
+          <h2 className="text-lg font-semibold mb-4">Ashik Webspace</h2>
           <p className="text-gray-400">
             Crafting code with love. <br /> © {new Date().getFullYear()} All rights reserved.
           </p>

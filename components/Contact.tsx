@@ -1,13 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, easeOut } from "framer-motion"; // ✅ Import the actual easing function
 
 const containerVariants = {
   hidden: { opacity: 0, y: 40 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.8, ease: "easeOut" },
+    transition: { duration: 0.8, ease: easeOut }, // ✅ fixed
   },
 };
 
@@ -52,7 +52,7 @@ export default function Contact() {
         </motion.p>
 
         <form
-          action="https://formspree.io/f/mvovzryd" /* replace with your Formspree endpoint */
+          action="https://formspree.io/f/mvovzryd"
           method="POST"
           className="flex flex-col space-y-4"
         >

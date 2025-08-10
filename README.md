@@ -6,11 +6,7 @@ Welcome to my personal portfolio website built with **Next.js**, **Tailwind CSS*
 
 ---
 
-## 📸 Preview
 
-![Website Preview](https://portfolio-mknl.vercel.app/preview-image.png) <!-- Optional: If you have a screenshot -->
-
----
 
 ## ✨ Features
 
